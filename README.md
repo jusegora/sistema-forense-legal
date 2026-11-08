@@ -1,6 +1,6 @@
 ﻿# Sistema Forense Legal
 
-**Por:** jusegora | Abogado & AI Solutions Architect
+**Por:** jusegora | Abogado & AI Solutions Architect | LegalTech & Análisis Forense de Datos
 
 Herramientas desarrolladas para el análisis de evidencia digital, enfocadas en mantener la validez legal y la cadena de custodia.
 
