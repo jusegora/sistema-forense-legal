@@ -1,21 +1,21 @@
-# Forensic Legal Suite (Enterprise DFIR & Legal Admissibility)
+﻿# Sistema Forense Legal
 
-**By:** jusegora (Criminalista & AI Architect)
+Herramientas desarrolladas para el analisis de evidencia digital, enfocadas en mantener la validez legal y la cadena de custodia.
 
-## Executive Summary
-Las soluciones actuales de Respuesta a Incidentes (DFIR), como Magnet AXIOM, están diseñadas para encontrar la verdad técnica. Sin embargo, **en un tribunal, la verdad técnica no sirve si no es legalmente admisible**. 
+## El Problema
+En el sector legal y forense, herramientas como Magnet AXIOM son excelentes para encontrar datos, pero el paso final (convertir esos datos en un informe que un juez pueda entender y admitir) sigue siendo un trabajo manual y propenso a errores. 
 
-*Forensic Legal Suite* es un motor de análisis forense digital de grado corporativo que integra la recolección de evidencia con un **Motor Criptográfico de Cadena de Custodia** y la **Generación Automatizada de Informes Periciales**, garantizando que cada byte analizado sea defendible ante un juez.
+Este proyecto busca automatizar esa brecha.
 
-## 🏗️ Arquitectura Propietaria (Core Privado)
-El código fuente de este repositorio es estrictamente privado por razones de seguridad y propiedad intelectual. A continuación se presenta una visión de alto nivel de sus capacidades:
+## Caracteristicas del Core
+El codigo fuente de este sistema es privado para proteger la propiedad intelectual. Sin embargo, las capacidades principales incluyen:
+- Aseguramiento de evidencia con hashes criptograficos (SHA-256).
+- Deteccion de exfiltracion de datos en entornos Microsoft 365.
+- Extraccion de entidades (nombres, montos) usando procesamiento de lenguaje natural local (sin enviar datos a la nube).
+- Generacion automatica de informes periciales en PDF.
 
-```mermaid
-graph TD
-    A[Endpoint / Cloud Logs] -->|Agente Recolector| B(Cifrado AES-256)
-    B --> C{Motor de Hashing}
-    C -->|SHA-256 / MD5| D[(Base de Datos Forense - SQLite)]
-    D --> E[Análisis de IA Local]
-    E -->|Visión / STT| F[Motor de Correlación]
-    F --> G[Generador de Informes Legales]
-    G --> H[Perito Judicial / Fiscalía]
+## Contacto y Demostracion
+Si eres reclutador, investigador o representante de una firma de auditoria y quieres ver una demostracion en vivo o revisar el codigo bajo un acuerdo de confidencialidad (NDA), puedes contactarme:
+
+- **Email:** [jusegora@gmail.com]
+- **GitHub:** [@jusegora](https://github.com/jusegora)
