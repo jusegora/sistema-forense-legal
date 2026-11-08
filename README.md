@@ -17,5 +17,5 @@ El codigo fuente de este sistema es privado para proteger la propiedad intelectu
 ## Contacto y Demostracion
 Si eres reclutador, investigador o representante de una firma de auditoria y quieres ver una demostracion en vivo o revisar el codigo bajo un acuerdo de confidencialidad (NDA), puedes contactarme:
 
-- **Email:** [jusegora@gmail.com]
+- **Email:** jusegora@gmail.com
 - **GitHub:** [@jusegora](https://github.com/jusegora)
