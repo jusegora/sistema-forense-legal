@@ -1,21 +1,22 @@
 ﻿# Sistema Forense Legal
 
-Herramientas desarrolladas para el analisis de evidencia digital, enfocadas en mantener la validez legal y la cadena de custodia.
+**Por:** jusegora (Abogado Especialista en Derecho Penal y Criminalística)
 
-## El Problema
-En el sector legal y forense, herramientas como Magnet AXIOM son excelentes para encontrar datos, pero el paso final (convertir esos datos en un informe que un juez pueda entender y admitir) sigue siendo un trabajo manual y propenso a errores. 
+## ¿De qué trata esto?
+Actualmente, herramientas como Magnet AXIOM son excelentes para recolectar datos y encontrar evidencia técnica. Sin embargo, en el mundo real, un juez no lee archivos JSON ni consolas de código. El paso final (convertir todos esos hallazgos en un informe legal estructurado y defendible en juicio) sigue siendo un proceso manual y muy propenso a errores humanos.
 
-Este proyecto busca automatizar esa brecha.
+Desarrollé este sistema para automatizar esa brecha. 
 
-## Caracteristicas del Core
-El codigo fuente de este sistema es privado para proteger la propiedad intelectual. Sin embargo, las capacidades principales incluyen:
-- Aseguramiento de evidencia con hashes criptograficos (SHA-256).
-- Deteccion de exfiltracion de datos en entornos Microsoft 365.
-- Extraccion de entidades (nombres, montos) usando procesamiento de lenguaje natural local (sin enviar datos a la nube).
-- Generacion automatica de informes periciales en PDF.
+## ¿Qué hace el sistema?
+El código fuente de este proyecto es privado porque hace parte de mi propiedad intelectual. Sin embargo, las capacidades que tiene el motor incluyen:
 
-## Contacto y Demostracion
-Si eres reclutador, investigador o representante de una firma de auditoria y quieres ver una demostracion en vivo o revisar el codigo bajo un acuerdo de confidencialidad (NDA), puedes contactarme:
+- **Aseguramiento de Evidencia:** Calcula hashes criptográficos (SHA-256) para garantizar que los archivos no fueron alterados.
+- **Detección de Fugas:** Analiza los logs de Microsoft 365 para detectar descargas masivas o accesos desde IPs sospechosas.
+- **Triaje con IA Local:** Extrae nombres de personas y montos de dinero usando procesamiento de lenguaje natural (NLP), sin enviar datos a la nube (garantizando la confidencialidad).
+- **Generación de Informes:** Consolida todo lo anterior en un documento PDF con formato pericial, listo para presentar ante un juez.
 
-- **Email:** jusegora@gmail.com
+## Contacto y Demostración
+Si eres reclutador, investigador o representante de una firma de auditoría y quieres ver una demostración en vivo del sistema, o revisar el código fuente bajo un acuerdo de confidencialidad (NDA), puedes escribirme directamente:
+
+- **Correo:** jusegora@gmail.com
 - **GitHub:** [@jusegora](https://github.com/jusegora)
