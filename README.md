@@ -3,7 +3,7 @@
 **By:** jusegora (Criminalista & AI Architect)
 
 ## Executive Summary
-Las soluciones actuales de Respuesta a Incidentes (DFIR), como Magnet AXIOM, están diseñadas para encontrar la verdad técnica. Sin embargo, **en un tribunal, la verdad técnica no sirve si no es legalmente admisible**. 
+Las soluciones actuales de Respuesta a Incidentes (DFIR), como Magnet AXIOM, están diseñadas para encontrar la verdad técnica. Sin embargo **en un tribunal, la verdad técnica no sirve si no es legalmente admisible**. 
 
 *Forensic Legal Suite* es un motor de análisis forense digital de grado corporativo que integra la recolección de evidencia con un **Motor Criptográfico de Cadena de Custodia** y la **Generación Automatizada de Informes Periciales**, garantizando que cada byte analizado sea defendible ante un juez.
 
