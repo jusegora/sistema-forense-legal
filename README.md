@@ -1,6 +1,6 @@
 # Sistema Forense Legal
 
-**Por:** jusegora | Abogado & AI Solutions Architect | LegalTech & Análisis Forense de Datos
+**Por:** jusegora | legal AI Engineer
 
 ## ¿De qué trata esto?
 Actualmente, herramientas como Magnet AXIOM son excelentes para recolectar datos y encontrar evidencia técnica. Sin embargo en el mundo real, un juez no lee archivos JSON ni consolas de código. El paso final (convertir todos esos hallazgos en un informe legal estructurado y defendible en juicio) sigue siendo un proceso manual y muy propenso a errores humanos.
